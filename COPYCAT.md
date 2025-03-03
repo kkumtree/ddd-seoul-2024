@@ -94,7 +94,7 @@ git push blog ephemeral: main
 ### Create folder and file  
 
 ```bash
-mkdir -p .github/workflows cd .github/workflows
+mkdir -p .github/workflows && cd .github/workflows
 touch deploy.yml
 ```
 
